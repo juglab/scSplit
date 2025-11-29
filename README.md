@@ -55,6 +55,8 @@ All datasets will shortly be available on [Zenodo](https://doi.org/10.5281/zenod
 - [HTLIF24](TODO)
 - [PaviaATN](TODO)
 
+The pretrained model on the HTLIF24 dataset is uploaded to the Bioimage Model Zoo (BMZ), check [here](https://bioimage.io/#/artifacts/amiable-otter).  
+
 ## For evaluating other scSplit variants. 
 In addition to evaluating scSplit, the same checkpoints can be used to evaluate other scSplit variants mentioned in the paper. One needs to make following changes to the arguments while evaluating the notebooks: 
 

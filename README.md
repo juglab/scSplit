@@ -40,13 +40,14 @@ python notebooks/evaluate_notebook.py --enable_real_input=true --ckpt=2502/HT_LI
 ## Datasets
 The publicly available datasets were utilized in our study. We adopted the same train/validation/test splits as those employed by previous methods focused on semantic unmixing. For convenience and clarity, we also provide these train/validation/test splits here.
 
-All datasets will shortly be available on [Zenodo](https://doi.org/10.5281/zenodo.17752782) (29/11/25).
+All datasets will shortly be available on [Zenodo](https://doi.org/10.5281/zenodo.17752782) (draft submitted 29/11/25).
 
-- Hagen et al.
-- BioSR
-- HTT24
-- HTLIF24
-- PaviaATN
+In the meantime, the original datasets are available at the following links:
+- [Hagen et al.](https://gigadb.org/dataset/100888)
+- [BioSR](https://figshare.com/articles/dataset/BioSR/13264793)
+- [HTT24](https://download.fht.org/jug/msplit/ht_t24/data/ht_t24.zip)
+- [HTLIF24](https://download.fht.org/jug/msplit/ht_lif24/data/ht_lif24_500ms.zip)
+- [PaviaATN](https://zenodo.org/records/8235843)
 
 ## Pre-trained models
 - [Hagen et al.](TODO)

@@ -42,12 +42,17 @@ The publicly available datasets were utilized in our study. We adopted the same 
 
 All datasets will shortly be available on [Zenodo](https://doi.org/10.5281/zenodo.17752782) (draft submitted 29/11/25).
 
-In the meantime, the original datasets are available at the following links:
+In the meantime, the original datasets are available at the following links and we provide some explanations of how we adapted the data:
 - [Hagen et al.](https://gigadb.org/dataset/100888)
+    - `actin-60x-noise2-highsnr.tif` and `mito-60x-noise2-highsnr.tif` randomly split between training, validation and test sets.
 - [BioSR](https://figshare.com/articles/dataset/BioSR/13264793)
+    - we extracted the reconstructed SIM images (`SIM_gt.mrc`) from the `Microtubules` and `ER` categories, randomly combined them into 2-channel images where channel 0 corresponds to `Microtubules` and channel 1 to `ER`, and split them into train, validation and test sets.
 - [HTT24](https://download.fht.org/jug/msplit/ht_t24/data/ht_t24.zip)
+    - split between train / val / test
 - [HTLIF24](https://download.fht.org/jug/msplit/ht_lif24/data/ht_lif24_500ms.zip)
+    - 500 ms acquistion and only the microtubule and kinetochore channels, as well as the same structures imaged simultaneously.
 - [PaviaATN](https://zenodo.org/records/8235843)
+    - we did not retain the nucleus channel and split the data into train, validation and test sets.
 
 ## Pre-trained models
 - [Hagen et al.](TODO)

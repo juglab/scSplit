@@ -50,13 +50,12 @@ The scSplit dataset were adapted from the following previously-published dataset
 - [PaviaATN](https://zenodo.org/records/8235843)
 
 ## Pre-trained models
-- [Hagen et al.](TODO)
-- [BioSR](TODO)
-- [HTT24](TODO)
-- [HTLIF24](TODO)
-- [PaviaATN](TODO)
+- [Hagen et al.](https://bioimage.io/#/artifacts/stupendous-swan)
+- [BioSR](https://bioimage.io/#/artifacts/handsome-sloth)
+- [HTT24](https://bioimage.io/#/artifacts/faithful-swan)
+- [HTLIF24](https://bioimage.io/#/artifacts/amiable-otter)
+- [PaviaATN](https://bioimage.io/#/artifacts/kind-badger)
 
-The pretrained model on the HTLIF24 dataset is uploaded to the Bioimage Model Zoo (BMZ), check [here](https://bioimage.io/#/artifacts/amiable-otter).  
 
 ## For evaluating other scSplit variants. 
 In addition to evaluating scSplit, the same checkpoints can be used to evaluate other scSplit variants mentioned in the paper. One needs to make following changes to the arguments while evaluating the notebooks: 

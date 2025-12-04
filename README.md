@@ -40,14 +40,8 @@ python notebooks/evaluate_notebook.py --enable_real_input=true --ckpt=2502/HT_LI
 ## Datasets
 The publicly available datasets were utilized in our study. We adopted the same train/validation/test splits as those employed by previous methods focused on semantic unmixing. For convenience and clarity, we also provide these train/validation/test splits here.
 
-All datasets are available on [Zenodo](https://doi.org/10.5281/zenodo.17752782).
-
-The scSplit dataset were adapted from the following previously-published datasets:
-- [Hagen et al.](https://gigadb.org/dataset/100888)
-- [BioSR](https://figshare.com/articles/dataset/BioSR/13264793)
-- [HTT24](https://download.fht.org/jug/msplit/ht_t24/data/ht_t24.zip)
-- [HTLIF24](https://download.fht.org/jug/msplit/ht_lif24/data/ht_lif24_500ms.zip)
-- [PaviaATN](https://zenodo.org/records/8235843)
+> [!NOTE]
+> All ready-to-use scSPlit datasets are available on [Zenodo](https://doi.org/10.5281/zenodo.17752782).
 
 ## Pre-trained models
 - [Hagen et al.](https://bioimage.io/#/artifacts/stupendous-swan)
